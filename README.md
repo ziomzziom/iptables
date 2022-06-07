@@ -33,4 +33,5 @@
                            @@@@@@@
 
 #/<-------------------------------------------------------------------------------------------------------------------------------------------->/#
-Attention! After running the script to the iptables.bash firewall script, you will automatically change the default configuration of your computer
+            
+            Attention! After running cloned bash script, you will automatically change the default configuration of your computer
