@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#
+    chmod +777 packet\ filtring\ iptables.bash
+
 #Delete all existing rules
     iptables -F
 
