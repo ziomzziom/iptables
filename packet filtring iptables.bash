@@ -30,3 +30,8 @@
 ##How Do I Unblock An IP Address
 #    iptables -D INPUT -s xx.xxx.xx.xx -j DROP
 #    iptables -D INPUT -s 87.53.42.120 -j DROP
+
+echo "The following rules, strings, packets, and byte counters are currently active:" 
+$ipt -t filter -L -v -n --line-numbers 
+$ipt -t n at -L -v - - line-numbers 
+$ipt -t mangle -L -v --line-numbers
