@@ -1,4 +1,5 @@
 #!/bin/sh
+# The program works by removing all rules and setting the default policies to ACCEPT.
 
 echo "The firewall is now being closed. All policies are set to value 
 ACCEPT, all rules and chains are removed, all counters are set to
